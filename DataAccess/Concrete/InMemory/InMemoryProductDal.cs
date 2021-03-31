@@ -70,5 +70,10 @@ namespace DataAccess.Concrete.InMemory
         {
             throw new NotImplementedException();
         }
+
+        public IList<Product> GetList(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
